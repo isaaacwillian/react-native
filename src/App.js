@@ -3,24 +3,19 @@ import {Text, View, StyleSheet} from 'react-native';
 import Primeiro from './components/Primeiro';
 import {One, Two, Three} from './components/Multi';
 import Random from './components/Random';
+import Butao from './components/Butao';
 
 export default () => {
   return (
     <View style={style.App}>
-      <Random min={1} max={10} />
-      <Random min={1} max={10} />
-      <Random min={1} max={10} />
-      <Random min={1} max={10} />
-      <Random min={1} max={10} />
-      <Random min={1} max={10} />
-      <Random min={1} max={10} />
+      <Butao title="Click-me!" />
     </View>
   );
 };
 
 const style = StyleSheet.create({
   App: {
-    backgroundColor: '#F3F',
+    backgroundColor: '#DED',
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
