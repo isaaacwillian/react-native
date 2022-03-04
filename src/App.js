@@ -4,11 +4,12 @@ import Primeiro from './components/Primeiro';
 import {One, Two, Three} from './components/Multi';
 import Random from './components/Random';
 import Butao from './components/Butao';
+import {Diferenciar} from './components/Diferenciar';
 
 export default () => {
   return (
     <View style={style.App}>
-      <Butao title="Click-me!" />
+      <Diferenciar />
     </View>
   );
 };
